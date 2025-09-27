@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Datos y modelos (los manejaremos con DVC más adelante)
+data/
+models/
+
+# SO / Jupyter
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
