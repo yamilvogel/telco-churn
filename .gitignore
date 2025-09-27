@@ -4,13 +4,17 @@ __pycache__/
 .venv/
 .env
 
-# Ignorar todo en data, excepto los punteros .dvc y .gitkeep
+# ---- DATA (ignorar todo, excepto .dvc y .gitkeep) ----
 data/**
+!data/
+!data/**/
 !data/**/*.dvc
 !data/.gitkeep
 
-# Ignorar todo en models, excepto los punteros .dvc y .gitkeep
+# ---- MODELS (ignorar todo, excepto .dvc y .gitkeep) ----
 models/**
+!models/
+!models/**/
 !models/**/*.dvc
 !models/.gitkeep
 
