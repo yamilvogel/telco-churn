@@ -4,9 +4,15 @@ __pycache__/
 .venv/
 .env
 
-# Datos y modelos (los manejaremos con DVC luego)
-data/
-models/
+# Ignorar todo en data, excepto los punteros .dvc y .gitkeep
+data/**
+!data/**/*.dvc
+!data/.gitkeep
+
+# Ignorar todo en models, excepto los punteros .dvc y .gitkeep
+models/**
+!models/**/*.dvc
+!models/.gitkeep
 
 # SO / Jupyter
 .DS_Store
