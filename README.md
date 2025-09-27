@@ -1,8 +1,8 @@
 # Telco Churn
-Proyecto de ML para predecir churn.
+Proyecto de ML para predecir churn (baja de clientes).
 
 ## Estructura
 - `src/`: scripts (data prep, train, etc.)
-- `data/`: datos locales (ignorados por Git; luego los versionaremos con DVC)
+- `data/`: datos locales (ignorado por Git; luego versionaremos con DVC)
 - `notebooks/`: EDA y prototipos
-- `models/`: artefactos de modelos (ignorados por Git)
+- `models/`: artefactos del modelo (ignorados por Git)
