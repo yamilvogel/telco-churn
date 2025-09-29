@@ -1,0 +1,18 @@
+schema: '2.0'
+stages:
+  data_prep:
+    cmd: python src/data_prep.py --in data/raw/telco_churn.csv --out data/processed/telco.parquet
+    deps:
+    - path: data/raw/telco_churn.csv
+      hash: md5
+      md5: 006527876bfe18c977d74eb4bc59443f
+      size: 873370
+    - path: src/data_prep.py
+      hash: md5
+      md5: 8dba896133002b3032734c27672d45e7
+      size: 2571
+    outs:
+    - path: data/processed/telco.parquet
+      hash: md5
+      md5: 35a182480c988bd32e01a53153c12b30
+      size: 224878

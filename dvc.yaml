@@ -1,0 +1,8 @@
+stages:
+  data_prep:
+    cmd: python src/data_prep.py --in data/raw/telco_churn.csv --out data/processed/telco.parquet
+    deps:
+      - src/data_prep.py
+      - data/raw/telco_churn.csv
+    outs:
+      - data/processed/telco.parquet
