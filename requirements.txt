@@ -1,0 +1,5 @@
+numpy
+pandas
+jupyterlab
+dvc[all]
+pyarrow
